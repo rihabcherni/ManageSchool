@@ -2,11 +2,11 @@
 @section('content')
 @if(session('success'))
 <div class="alert alert-success">
-    {{ session('success') }} 
+    {{ session('success') }}
 </div>
 @endif
     <div class="table-wrapper">
-        <div class="d-flex justify-content-end m-4">
+        <div class="d-flex justify-content-end my-3">
             <a class="btn btn-info mr-1" href="{{route('students.create') }}">Add Student</a>
         </div>
         <table class="fl-table w-100">
@@ -21,9 +21,6 @@
                     <th>Show </th>
                     <th>Update </th>
                     <th>Delete</th>
-                </tr>
-                <tr>
-                    <td colspan="7"></td>
                 </tr>
             </thead>
             <tbody>
@@ -60,7 +57,6 @@
             </tbody>
         </table>
         <div style="width:650px;">
-            {{--  {!! $students->links() !!}  --}}
         </div>
     </div>
 @endsection

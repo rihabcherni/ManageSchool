@@ -17,6 +17,23 @@
             padding: 30px;
             background-color: rgb(214, 188, 221);
         }
+        .linkcolor{
+            color: white !important;
+            font-weight: bold !important;
+            font-size: 18px;
+        }
+        table th{
+            font-size: 16px;
+            font-weight: bold;
+            color:white;
+            padding: 15px 5px ;
+            background-color: rgb(117, 8, 117);
+        }
+        table td{
+            font-size: 16px;
+            padding: 10px 5px ;
+            background-color: rgb(247, 247, 247);
+        }
         .cardsEdit{
             display:flex;
             justify-content:space-between;
@@ -43,21 +60,23 @@
             font-weight: bold!important;
         }
     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-GLhlTQ8iN17C2tTGo5GOZSRXkaT9tiZcL21eY49F9RXpD5N5/6bz4l4+BMWI15Z5" crossorigin="anonymous">
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <div>
-                <img src="/images/logo2.PNG" width="150" height="100" style="border-radius: 40%; margin:5px">
+                <img src="/images/logo2.PNG" width="100" height="80" style="border-radius: 40%; margin:5px">
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
+                    <li class="nav-item active linkcolor">
                         <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item linkcolor">
                         <a class="nav-link" href="/students">Students</a>
                     </li>
                 </ul>

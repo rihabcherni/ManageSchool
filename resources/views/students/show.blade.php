@@ -8,7 +8,6 @@
 @endif
     <div class="d-flex justify-content-around">
         <h2>Student Details</h2>
-        <a href="{{ route('students.index') }}" class="btn btn-info color">Back to List</a>
     </div>
     <div class="cardsShow" style="">
         <div class="size">
